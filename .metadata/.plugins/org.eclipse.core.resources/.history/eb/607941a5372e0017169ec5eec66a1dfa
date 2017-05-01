@@ -1,0 +1,28 @@
+
+public class Variable {
+	
+	public int fibonacciSequence()
+	{
+		int p1=0, p2=0, sum=0;
+		for (int i = 0; i < 10 ; i++ )
+		{
+			if (i==1)
+				p1 = 1;
+			if (i==2)
+				p2 = 1;
+			
+			sum = p1 + p2;
+			p1 = p2;
+			p2++;
+			
+			
+		}
+		
+		System.out.println(sum);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
